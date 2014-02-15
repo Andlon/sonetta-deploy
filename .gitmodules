@@ -1,0 +1,7 @@
+[submodule "qt5"]
+path = qt5
+url = https://git.gitorious.org/qt/qt5.git
+
+[submodule "sonetta"]
+path = sonetta
+url = https://github.com/Andlon/sonetta.git
