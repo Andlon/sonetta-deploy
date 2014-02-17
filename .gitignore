@@ -1,1 +1,10 @@
+# Ignore generated archive
 sonetta.tar.gz
+sonetta.tar.bz2
+
+# Ignore qt deploy folder
+qt5-install/
+
+# Ignore autosave files
+*~
+*.autosave

@@ -21,7 +21,7 @@ This will pull an "empty" qt5 repository. Proceed to fetch the remaining modules
 -------------
 When in the qt5 directory (Linux):
 
-    ./configure -opensource -prefix $PWD -release -c++11 -shared -no-rpath -no-widgets -nomake examples -nomake tests -optimized-qmake -no-icu -qt-xcb -skip qt3d -skip qtactiveqt -skip qtandroidextras -skip qtconnectivity -skip qtdoc -skip qtdocgallery -skip qtenginio -skip qtfeedback -skip qtlocation -skip qtmacextras -skip qtpim -skip qtqa -skip qtquick1 -skip qtsensors -skip qtserialport -skip qtwayland -skip qtwebkit -skip qtwebkit-examples -skip qtwinextras
+    ./configure -opensource -prefix $PWD/../qt5-install -release -c++11 -shared -no-rpath -no-widgets -nomake examples -nomake tests -optimized-qmake -no-icu -qt-xcb -qt-xkbcommon -skip qt3d -skip qtactiveqt -skip qtandroidextras -skip qtconnectivity -skip qtdoc -skip qtdocgallery -skip qtenginio -skip qtfeedback -skip qtlocation -skip qtmacextras -skip qtpim -skip qtqa -skip qtquick1 -skip qtsensors -skip qtserialport -skip qtwayland -skip qtwebkit -skip qtwebkit-examples -skip qtwinextras
     
 or if on Windows:
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-QT=qt5
+QT=qt5-install
 SONETTA=sonetta/release
 
 # Copy Qt libs
