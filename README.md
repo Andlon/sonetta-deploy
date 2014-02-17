@@ -19,10 +19,14 @@ This will pull an "empty" qt5 repository. Proceed to fetch the remaining modules
     
 3: Build Qt 5
 -------------
-When in the qt5 directory:
+When in the qt5 directory (Linux):
 
     ./configure -opensource -prefix $PWD -release -c++11 -shared -no-rpath -no-widgets -nomake examples -nomake tests -optimized-qmake -no-icu -qt-xcb -skip qt3d -skip qtactiveqt -skip qtandroidextras -skip qtconnectivity -skip qtdoc -skip qtdocgallery -skip qtenginio -skip qtfeedback -skip qtlocation -skip qtmacextras -skip qtpim -skip qtqa -skip qtquick1 -skip qtsensors -skip qtserialport -skip qtwayland -skip qtwebkit -skip qtwebkit-examples -skip qtwinextras
     
+or if on Windows:
+
+	configure -opensource -prefix $PWD -mp -release -c++11 -shared -no-accessibility -opengl desktop -no-angle -no-widgets -nomake examples -nomake tests -no-icu -skip qt3d -skip qtactiveqt -skip qtandroidextras -skip qtconnectivity -skip qtdoc -skip qtdocgallery -skip qtenginio -skip qtfeedback -skip qtlocation -skip qtmacextras -skip qtpim -skip qtqa -skip qtquick1 -skip qtsensors -skip qtserialport -skip qtwayland -skip qtwebkit -skip qtwebkit-examples -skip qtx11extras -skip qtqa -skip qtsystems
+	
 Verify that configure correctly detects essential libraries/dependencies, such as ALSA, pulseaudio, udev, fontconfig, opengl etc. Install required development packages for your system until all necessary dependencies are satisfied.
 
 Proceed to build Qt by running:
