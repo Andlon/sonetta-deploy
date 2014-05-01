@@ -28,7 +28,7 @@ cp -R $QT/plugins/platforminputcontexts $SONETTA/plugins/
 
 # Copy Qt qml assets
 mkdir -p $SONETTA/quick
-cp -R $QT/qml $SONETTA/quick
+cp -R $QT/qml/* $SONETTA/quick
 
 # Copy libspotify
 cp /usr/local/lib/libspotify.so.12 $SONETTA/libs/libspotify.so.12
